@@ -30,7 +30,7 @@ def ghoul_spam_handler(client, message):
 
 @client.on_message(filters.command(ghoul_table_command, prefixes=command_prefixes) & filters.me)
 def ghoul_table_handler(client, message):
-    i = 1000
+    i = 99999
     while i > 62:
         try:
             text = f'{i} - 7 = {i-7}'
